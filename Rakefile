@@ -27,6 +27,8 @@ namespace :db do
     Student.create_table
   end
   
+  desc 'seed the database with pre-established values'
+  task :seed
 end
 
 
